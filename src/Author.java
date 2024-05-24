@@ -14,4 +14,10 @@ public class Author {
     public String getFullName() {
         return this.fullName;
     }
+    @Override
+    public String toString() {
+        return name + ' ' +
+                fullName ;
+    }
 }
+
